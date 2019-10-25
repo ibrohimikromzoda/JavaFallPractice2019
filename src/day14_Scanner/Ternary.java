@@ -1,7 +1,12 @@
 package day14_Scanner;
 
+import java.util.Scanner;
+
 public class Ternary {
 	public static void main(String[] args) {
+		Scanner input = new Scanner (System.in);
+		
+		
 		
 		
 		/*
@@ -118,6 +123,31 @@ public class Ternary {
 		
 		
 		
+		
+		System.out.println("enter ur digits");
+		int num1 = input.nextInt();
+		int num2 = input.nextInt();
+		int imax;
+		
+		imax = (num1>num2) ? num1 
+				: (num2 > num1) ? num2 : num2;
+		System.out.println(imax);
+		
+		System.out.println("Enter number:");
+		int x = input.nextInt();
+	  int nums = input.nextInt();
+	   int max1;
+	   
+	   
+		
+		 max1 = (x > nums) ? x
+		 : (nums > x) ? nums : nums ;
+		 System.out.println (max1);
+	  
+		
+		
+		
+			
 		
 		
 		

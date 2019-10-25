@@ -4,7 +4,15 @@ public class FirstJavaProgram {
 
 	public static void  main (String [] args ) {
 	
-	System.out.println ("What's up Ibrohim");
+	String word = "ibrohim";
+	String result ="";
+	
+	for (int i = word.length(); i < 0; i++) {
+		
+		
+
+		
+	}
 	
 	
   	

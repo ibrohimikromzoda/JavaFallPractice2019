@@ -1,7 +1,11 @@
 package day14_Scanner;
 
+import java.util.Scanner;
+
 public class warmup {
 public static void main(String[] args) {
+	
+	Scanner scan = new Scanner (System.in);
 	 /*
 	 write a java program that can convert numbers between 0 ~ 9
 	  to words, if the number is greater than 9 or less than zero,
@@ -49,6 +53,10 @@ public static void main(String[] args) {
 	                        :n==1? "one" :n==0? "zero" :"Invalid";
 	        
 	        System.out.println(result2);
+	        
+	       
+	        
+	        
 	        
 	        
 	        
